@@ -11,5 +11,5 @@ fun Tasks(component: TasksComponent) {
         Text(text = component.data.collectAsState("").value)
         Text(text = component.argument)
     }
-   
+
 }

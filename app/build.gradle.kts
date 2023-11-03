@@ -65,6 +65,11 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
     implementation("com.arkivanov.decompose:decompose:2.1.3")
     implementation("com.arkivanov.decompose:extensions-compose-jetpack:2.1.3")
+
+    implementation("org.orbit-mvi:orbit-core:6.1.0")
+    implementation("org.orbit-mvi:orbit-compose:6.1.0")
+    implementation("org.orbit-mvi:orbit-viewmodel:6.1.0")
+
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")

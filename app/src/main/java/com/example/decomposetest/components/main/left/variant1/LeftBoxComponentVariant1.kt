@@ -1,8 +1,7 @@
 package com.example.decomposetest.components.main.left.variant1
 
-import kotlinx.coroutines.flow.Flow
+import org.orbitmvi.orbit.ContainerHost
 
-interface LeftBoxComponentVariant1 {
-
-    val data: Flow<String>
+interface LeftBoxComponentVariant1: ContainerHost<String, String>{
+    fun onToastButtonClicked()
 }
